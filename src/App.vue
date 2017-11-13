@@ -1,17 +1,16 @@
 <template>
   <div id="app">
-    <img src="./assets/logo.png">
-    <HelloWorld/>
+    <Checker></Checker>
   </div>
 </template>
 
 <script>
-import HelloWorld from './components/HelloWorld'
+import Checker from './components/Checker'
 
 export default {
   name: 'app',
   components: {
-    HelloWorld
+    Checker
   }
 }
 </script>
